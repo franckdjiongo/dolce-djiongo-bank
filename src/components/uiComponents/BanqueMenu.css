@@ -1,0 +1,92 @@
+.banque-menu {
+  display: flex;
+  width: 100%;
+  /* background-color: #9c3d54; */
+  /* justify-content: center;
+    align-self: center; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.banque-container-menu {
+  /* background-color: #9c3d54; */
+  background-color: hsla(0, 0%, 85%, 0.239);
+  width: 100%;
+  height: 165px;
+  padding: 0 30px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banque-logo {
+  width: 155px;
+  height: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a2453d;
+  border-radius: 8px;
+  /* outline: 5px solid#FFD460; */
+  margin: 2px 8px 10px;
+}
+.banque-logo figure img {
+  width: 145px;
+  height: 145px;
+}
+
+.banque-menu-link {
+  display: flex;
+  justify-content: flex-end;
+  /* position: absolute;
+  right: 0; */
+  /* margin: 15px auto; */
+  width: 60%x;
+  align-items: center;
+  /* top: 5%; */
+}
+.banque-menu-link-navLink {
+  /* padding-right: 0.1rem; */
+  color: palegoldenrod;
+  font: 400;
+}
+.banque-menu-link-navLink a {
+  position: relative;
+  text-decoration: none;
+  color: #a2453d;
+  /* margin-top: 3.5rem; */
+  /* top: 3px; */
+  font-size: 1.4rem;
+}
+
+.banque-menu-link-navLink ul li a:hover {
+  color: #ffd460;
+  background-color: #a2453d;
+  border-style: dotted;
+  border-color: #ffd460;
+}
+.banque-menu-link-navLink nav ul li {
+  list-style: none;
+}
+
+.banque-menu-btnConnection {
+  margin-left: 40px;
+  margin-right: 25px;
+}
+.banque-menu-bouton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 175px;
+  height: 75px;
+  background-color: #fff;
+  color: #a2453d;
+  border: 7px solid;
+  outline: 15px #cacaca;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #000, 0px 0px 30px #777;
+}
+
+.banque-menu-bouton:hover {
+  background-color: #a2453d;
+  color: #e6b127;
+  outline: 3px #ffff;
+}

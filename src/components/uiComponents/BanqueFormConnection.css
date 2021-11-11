@@ -1,0 +1,72 @@
+.banque-connection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.1rem;
+  width: 20%;
+  margin: 5px auto;
+  height: 400px;
+  /* background-color:#fff ; */
+  background: rgba(83, 68, 68, 0.301); /* Fallback color */
+  background: rgba(92, 69, 69, 0.164); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  right: 0;
+  position: absolute;
+  margin-right: 75px;
+  border-top: 9px solid #a2453d;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  margin-top: 20px !important;
+  box-shadow: 0px 0px 10px #000, 0px 0px 30px #777;
+}
+
+.banque-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 8px;
+  height: auto;
+  box-shadow: 0px 0px 10px #000, 0px 0px 30px #777;
+  border-radius: 9px;
+  border-left: 9px solid #fff;
+}
+.inputUsername {
+  width: 260px;
+  margin-bottom: 15px;
+}
+
+.banque-menu-boutonConnexion {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 195px;
+  height: 75px;
+  background-color: #fff;
+  color: #a2453d;
+  border: 7px solid;
+  outline: 15px #cacaca;
+  border-radius: 15px;
+}
+
+.banque-menu-boutonConnexion:hover {
+  background-color: #a2453d;
+  color: #e6b127;
+  outline: 3px #ffff;
+}
+
+label {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+@media (max-width: 999px) {
+  .banque-connection {
+    width: 70%;
+    right: 0;
+    position: absolute;
+  }
+}

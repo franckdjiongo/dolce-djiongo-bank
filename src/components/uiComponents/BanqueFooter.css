@@ -1,0 +1,20 @@
+.banque-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  bottom: 0px;
+  /* margin-top:55px; */
+  background-color: #9c3d54;
+}
+
+/* ************responsive section******************** */
+
+@media (max-width: 980px) {
+  .banque-footer {
+    position: absolute;
+    bottom: 0px;
+  }
+}

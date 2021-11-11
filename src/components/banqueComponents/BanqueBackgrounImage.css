@@ -1,0 +1,39 @@
+.banque-background-image {
+  /* background-image: url('/Images/slide1.png');  */
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  /* background-color: #9c3d54; */
+  height: 590px;
+}
+/* img{
+
+    max-width:100%;
+    height:auto;
+  } */
+
+.banque-backgroundImage-container {
+  width: 70%;
+
+  box-shadow: rgba(172, 59, 93, 0.4) -5px 5px, rgba(105, 20, 34, 0.3) -10px 10px,
+    rgba(230, 67, 116, 0.2) -15px 15px, rgba(87, 18, 35, 0.1) -20px 20px,
+    rgba(240, 46, 170, 0.05) -25px 25px;
+  margin: 40px auto;
+}
+
+/* ************responsive section******************** */
+
+@media (max-width: 980px) {
+  .banque-background-image {
+    height: 450px;
+    background-color: #665c84;
+    background-attachment: fixed;
+  }
+
+  .banque-backgroundImage-container {
+    width: 95%;
+
+    margin: 10px auto;
+  }
+}

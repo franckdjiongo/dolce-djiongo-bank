@@ -1,0 +1,12 @@
+.form-inscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: rgb(83, 68, 68); /* Fallback color */
+  background: rgba(92, 69, 69, 0.5); /* Black background with 0.5 opacity */
+  padding: 2rem;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
